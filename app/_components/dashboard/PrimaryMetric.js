@@ -15,10 +15,10 @@ const PrimaryMetric = ({ label, value, tooltip, isPrimary, orderCount }) => {
           <Tooltip content={tooltip} />
         </div>
         <span className="text-xl md:text-2xl lg:text-3xl font-medium flex justify-between items-end">
-          <span className={isPrimary ? "text-white" : "text-neutral-500"}>{value}</span>
+          <span className={isPrimary ? "text-white" : ""}>{value}</span>
           {orderCount && (
             <div className="flex items-center cursor-pointer">
-              <span className={`text-sm underline ${isPrimary ? "text-white" : "text-[#146eb4]"}`}>
+              <span className={`text-sm underline cursor-pointer ${isPrimary ? "text-white" : "text-[#146eb4]"}`}>
                 {orderCount} Orders
               </span>
               <FaChevronRight className={`text-sm ${isPrimary ? "text-white" : "text-[#146eb4]"}`} />
