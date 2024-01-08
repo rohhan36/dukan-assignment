@@ -29,7 +29,7 @@ const HomePage = () => {
         <DateSelector selectedDate={selectedDate} setSelectedDate={setSelectedDate} />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
         <PrimaryMetric
           label="Next Payout"
           value="₹ 27,504.25"

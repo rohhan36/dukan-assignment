@@ -10,7 +10,7 @@ const SideBarOption = ({ option, activeOption, setActiveOption }) => {
   return (
     <div
       onClick={changeActiveOption}
-      className={`flex gap-3 items-center cursor-pointer transition-all rounded-md px-3 py-1.5
+      className={`flex gap-3 items-center justify-center md:justify-start cursor-pointer transition-all rounded-md px-3 py-1.5
         ${isActive ? "bg-[#343c53]" : "hover:bg-[#343c53]/40"}
       `}
     >
