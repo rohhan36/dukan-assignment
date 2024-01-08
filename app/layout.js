@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="flex">
+        <main className="flex bg-neutral-100">
           <Sidebar />
           <div className="w-full">
             <NavBar />

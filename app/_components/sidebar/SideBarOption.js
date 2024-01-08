@@ -14,10 +14,10 @@ const SideBarOption = ({ option, activeOption, setActiveOption }) => {
         ${isActive ? "bg-[#343c53]" : "hover:bg-[#343c53]/40"}
       `}
     >
-      <span className="text-xl py-1">
+      <span className="text-lg py-1">
         <Icon />
       </span>
-      <div className="font-light hidden md:block">{option.label}</div>
+      <div className="font-light hidden md:block text-sm">{option.label}</div>
     </div>
   );
 };

@@ -14,7 +14,7 @@ const NavBar = () => {
         <Tooltip label="How it works" content="Contact us at help@dukaan.com to know more" />
       </div>
 
-      <SearchBar />
+      <SearchBar placeholder="Search features, tutorials, etc." size="md" />
 
       <div className="flex gap-2 items-center">
         <Notifications />
